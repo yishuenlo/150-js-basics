@@ -1,3 +1,5 @@
+/* author: Yishuen Lo */
+
 :root{
   --primary: #424242; /* dark grey */
   --secondary: #9575CD;
@@ -94,6 +96,12 @@ input{
   border-radius: 16px;
   padding: 0.5em;
   padding-left: 1em;
+}
+
+/* clear chrome outline */
+input:focus, button:focus{
+  outline-style: none;
+  box-shadow:none;
 }
 
 input:focus{
