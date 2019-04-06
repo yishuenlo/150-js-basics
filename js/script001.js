@@ -13,8 +13,7 @@ let dayList = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday",
 //create array of month
 let monthList = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 
-// console.log("Today is " + dayList[day]);
-dayOfWeek.innerHTML = dayList[day] + ", " + monthList[month] + " " + date + ", " + year;
+dayOfWeek.innerHTML = `${dayList[day]}, ${monthList[month]} ${date}, ${year}`;
 
 let hour = today.getHours();
 let min = today.getMinutes();
@@ -38,5 +37,4 @@ if (min <= 9) {
   min = "0" + min;
 }
 
-// console.log("Current Time is " + hour + ":" + min + " " + period);
-timeOfDay.innerHTML = hour + ":" + min + " " + period;
+timeOfDay.innerHTML = `${hour}:${min} ${period}`;
