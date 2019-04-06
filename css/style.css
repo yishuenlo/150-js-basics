@@ -133,3 +133,21 @@ input[type=number] {
   color: var(--accent);
   font-weight: 500;
 }
+
+.wrapper{
+  width: 80vw;
+  margin: auto;
+  display: grid;
+  grid-gap: 0.5em;
+  grid-template-columns: repeat(auto-fill, minmax(400px,1fr));
+  grid-auto-rows: 500px;
+}
+
+@media screen and (max-width: 440px){
+  section{
+    width: 200px;
+  }
+  .wrapper{
+    grid-template-columns: 1fr;
+  }
+}
