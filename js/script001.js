@@ -19,14 +19,14 @@ dayOfWeek.innerHTML = dayList[day] + ", " + monthList[month] + " " + date + ", "
 let hour = today.getHours();
 let min = today.getMinutes();
 
-var period = (hour >=12)? "PM":"AM";
+var period = (hour >= 12) ? "PM" : "AM";
 // if(hour >=12 ){
 //   period = " PM ";
 // } else {
 //   period = " AM ";
 // }
 
-hour = (hour >=12)? hour - 12: hour;
+hour = (hour > 12) ? hour - 12 : hour;
 // if( hour >=12 ){
 //   hour = hour -12;
 // } else {
@@ -34,7 +34,7 @@ hour = (hour >=12)? hour - 12: hour;
 // }
 
 //add preceding 0;
-if(min <= 9){
+if (min <= 9) {
   min = "0" + min;
 }
 
