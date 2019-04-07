@@ -11,28 +11,42 @@
   <script src="js/ex006.js" async></script>
   <script src="js/ex007.js" async></script>
   <link rel="stylesheet" href="css/style.css">
-  <link href="https://fonts.googleapis.com/css?family=Fira+Sans:300,500" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans:200,400" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 </head>
 
 <body>
-  <main>
+  <nav id="navbar">
     <header>
-      <h1><a href="https://www.w3resource.com/javascript-exercises/javascript-basic-exercises.php#EDITOR" target="_blank">w3resource Javascript Basics</a></h1>
+      <h1><a href="https://www.w3resource.com/javascript-exercises/javascript-basic-exercises.php#EDITOR" target="_blank">w3resource </a>Javascript Basics</h1>
     </header>
+    <h2>Exercises</h2>
+    <ul id="menu-list">
+      <li><a class="nav-link" href="#ex001">001: Current Date & Time</a></li>
+      <li><a class="nav-link" href="#ex002">002: Print Current Window</a></li>
+      <li><a class="nav-link" href="#ex004">004: Triangle Area Calculator</a></li>
+    </ul>
 
+    <footer>
+      <p>Made with <i class="fas fa-heart love"></i> by <a href="https://github.com/yishuenlo" target="_blank">Yish</a></p>
+    </footer>
+  </nav>
+
+  <main>
     <div class="wrapper">
       <section id="ex001" class="tile">
         <h3><a href="https://www.w3resource.com/javascript-exercises/javascript-basic-exercise-1.php" target="_blank">001 + 003: Current Date & Time</a></h3>
         <p class="description">Write a JavaScript program to display the current day and time in the following format.</p>
         <p>Today is <span class="date-input" id="day">Monday</span></p>
         <p>Current time is <span class="date-input" id="time">00:00</span></p>
+        <a href="https://github.com/yishuenlo/150-js-basics/blob/gh-pages/js/ex001.js" target="_blank" class="github-js"><i class="fab fa-github"></i></a>
       </section>
 
       <section id="ex002" class="tile">
         <h3><a href="https://www.w3resource.com/javascript-exercises/javascript-basic-exercise-2.php" target="_blank">002: Print Current Window</a></h3>
         <p class="description">Write a JavaScript program to print the contents of the current window.</p>
         <button id="print" type="button" name="button">Print Window</button>
+        <a href="https://github.com/yishuenlo/150-js-basics/blob/gh-pages/js/ex002.js" target="_blank" class="github-js"><i class="fab fa-github"></i></a>
       </section>
 
       <section id="ex004" class="tile">
@@ -49,25 +63,28 @@
           <button id="reset-triangles" type="button" name="button">Reset</button>
         </form>
         <p id="triangle-area">Triangle Area:</p>
+        <a href="https://github.com/yishuenlo/150-js-basics/blob/gh-pages/js/ex004.js" target="_blank" class="github-js"><i class="fab fa-github"></i></a>
       </section>
 
       <section id="ex005" class="tile">
         <h3><a href="https://www.w3resource.com/javascript-exercises/javascript-basic-exercise-5.php" target="_blank">005: Marquee</a></h3>
-        <p>Write a JavaScript program to rotate the string 'w3resource' in right direction by periodically removing one letter from the end of the string and attaching it to the front.</p>
+        <p class="description">Write a JavaScript program to rotate the string 'w3resource' in right direction by periodically removing one letter from the end of the string and attaching it to the front.</p>
         <p id="marquee" class="highlight">w3resource.</p>
+        <a href="https://github.com/yishuenlo/150-js-basics/blob/gh-pages/js/ex005.js" target="_blank" class="github-js"><i class="fab fa-github"></i></a>
       </section>
 
       <section id="ex006" class="tile">
         <h3><a href="https://www.w3resource.com/javascript-exercises/javascript-basic-exercise-6.php" target="_blank">006: Is It A Leap Year?</a></h3>
-        <p>Write a JavaScript program to determine whether a given year is a leap year in the Gregorian calendar.</p>
+        <p class="description">Write a JavaScript program to determine whether a given year is a leap year in the Gregorian calendar.</p>
         <label for="year">Year</label>
         <input id="leapYearInput" type="number" name="year" value="">
         <p id="leapYearDisplay" class="highlight">Leap Year? </p>
+        <a href="https://github.com/yishuenlo/150-js-basics/blob/gh-pages/js/ex006.js" target="_blank" class="github-js"><i class="fab fa-github"></i></a>
       </section>
 
       <section>
         <h3><a href="https://www.w3resource.com/javascript-exercises/javascript-basic-exercise-7.php" target="_blank">007: 3-Day New Year's Weekend</a></h3>
-        <p>Write a JavaScript program to find which January 1st is on a <span class="original-prompt">Sunday between 2014 and 2050</span><span class="prompt-change"> Monday or Friday between age 7 and age 65, with birth year given by the user</span>.</p>
+        <p class="description">Write a JavaScript program to find which January 1st is on a <span class="original-prompt">Sunday between 2014 and 2050</span><span class="prompt-change"> Monday or Friday between age 7 and age 65, with birth year given by the user</span>.</p>
         <label for="birth-year">Birth Year</label>
         <select id="birth-year" name="birth-year"></select><br>
         <button id="calculate-holiday" type="button" name="button">Calculate</button>
@@ -76,13 +93,12 @@
           <p>Total number of years: <span id="numYears" class="highlight"></span></p>
           <p>List of years: <span id="sundayYearOutput" class="highlight"></span></p>
         </div>
+        <a href="https://github.com/yishuenlo/150-js-basics/blob/gh-pages/js/ex007.js" target="_blank" class="github-js"><i class="fab fa-github"></i></a>
       </section>
     </div>
   </main>
 
-  <footer>
-    <p>Made with <i class="fas fa-heart love"></i> by <a href="https://github.com/yishuenlo" target="_blank">Yish</a></p>
-  </footer>
+
 
 </body>
 
