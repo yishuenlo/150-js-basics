@@ -28,7 +28,7 @@ function calcMissingHolidays() {
       //if january 1 is a sunday
       if (jan1.getDay() === 1 || jan1.getDay() === 5) {
         jan1Sunday.push(year); //store years in the array
-        YEARLISTDISPLAY.innerHTML = `List of years: ${jan1Sunday.join(', ')}`; //display array as a list
+        YEARLISTDISPLAY.innerHTML = jan1Sunday.join(', '); //display array as a list
       }
     }
 
