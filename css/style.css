@@ -88,7 +88,7 @@ label{
   /* padding-right: 1em; */
 }
 
-input{
+input, select{
   color: var(--accent);
   width: 80px;
   margin-bottom: 1em;
@@ -104,7 +104,7 @@ input:focus, button:focus{
   box-shadow:none;
 }
 
-input:focus{
+input:focus, select:focus{
   color: var(--accent);
 }
 
