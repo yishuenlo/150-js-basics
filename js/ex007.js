@@ -11,7 +11,7 @@ let select = document.querySelector("#birth-year");
 let currentYear = new Date().getFullYear();
 
 //populate dropdown list
-for(let i = currentYear; i >= currentYear-60; i--){
+for(let i = currentYear; i >= currentYear-100; i--){
   let option = document.createElement("option");
   option.text = option.value = i;
   select.add(option, 0);
