@@ -243,6 +243,76 @@ input[type=number] {
   height: 120px;
 }
 
+/* ---------------------ANIMATION start------------------- */
+@-moz-keyframes focus-highlight {
+  0%{
+    border: 1px solid rgba(131, 131, 131, 0.2);
+  }
+  30%{
+    border: 2px solid rgba(131, 131, 131, 0.2);
+  }
+  60%{
+    border: 2px solid #FFB300;
+  }
+  100%{
+    border: 1px solid rgba(131, 131, 131, 0.2);
+  }
+}
+
+@-webkit-keyframes focus-highlight {
+  0%{
+    border: 1px solid rgba(131, 131, 131, 0.2);
+  }
+  30%{
+    border: 2px solid rgba(131, 131, 131, 0.2);
+  }
+  60%{
+    border: 2px solid #FFB300;
+  }
+  100%{
+    border: 1px solid rgba(131, 131, 131, 0.2);
+  }
+}
+
+@-o-keyframes focus-highlight {
+  0%{
+    border: 1px solid rgba(131, 131, 131, 0.2);
+  }
+  30%{
+    border: 2px solid rgba(131, 131, 131, 0.2);
+  }
+  60%{
+    border: 2px solid #FFB300;
+  }
+  100%{
+    border: 1px solid rgba(131, 131, 131, 0.2);
+  }
+}
+
+@keyframes focushighlight {
+  0%{
+    border: 1px solid rgba(131, 131, 131, 0.2);
+  }
+  30%{
+    border: 2px solid rgba(131, 131, 131, 0.2);
+  }
+  60%{
+    border: 2px solid #FFB300;
+  }
+  100%{
+    border: 1px solid rgba(131, 131, 131, 0.2);
+  }
+}
+
+.focus-animate{
+  animation: focushighlight 2s;
+  -moz-animation: focushighlight 2s;
+  -webkit-animation: focushighlight 2s;
+  -o-animation: focushighlight 2s;
+}
+
+/* ---------------------ANIMATION end------------------- */
+
 @media screen and (max-width: 756px){
   nav{
     display: none;
