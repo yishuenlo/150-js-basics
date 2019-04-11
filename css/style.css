@@ -293,11 +293,17 @@ input[type=number] {
   0%{
     border: 1px solid rgba(131, 131, 131, 0.2);
   }
-  30%{
+  5%{
     border: 2px solid rgba(131, 131, 131, 0.2);
   }
-  60%{
+  10%{
     border: 2px solid #FFB300;
+  }
+  90%{
+    border: 2px solid #FFB300;
+  }
+  95%{
+    border: 2px solid rgba(131, 131, 131, 0.2);
   }
   100%{
     border: 1px solid rgba(131, 131, 131, 0.2);
@@ -305,10 +311,10 @@ input[type=number] {
 }
 
 .focus-animate{
-  animation: focushighlight 2s;
-  -moz-animation: focushighlight 2s;
-  -webkit-animation: focushighlight 2s;
-  -o-animation: focushighlight 2s;
+  animation: focushighlight 1800ms;
+  -moz-animation: focushighlight 1800ms;
+  -webkit-animation: focushighlight 1800ms;
+  -o-animation: focushighlight 1800ms;
 }
 
 /* ---------------------ANIMATION end------------------- */
