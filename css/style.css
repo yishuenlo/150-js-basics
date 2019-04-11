@@ -243,6 +243,82 @@ input[type=number] {
   height: 120px;
 }
 
+/* ---------------------ANIMATION start------------------- */
+@-moz-keyframes focus-highlight {
+  0%{
+    border: 1px solid rgba(131, 131, 131, 0.2);
+  }
+  30%{
+    border: 2px solid rgba(131, 131, 131, 0.2);
+  }
+  60%{
+    border: 2px solid #FFB300;
+  }
+  100%{
+    border: 1px solid rgba(131, 131, 131, 0.2);
+  }
+}
+
+@-webkit-keyframes focus-highlight {
+  0%{
+    border: 1px solid rgba(131, 131, 131, 0.2);
+  }
+  30%{
+    border: 2px solid rgba(131, 131, 131, 0.2);
+  }
+  60%{
+    border: 2px solid #FFB300;
+  }
+  100%{
+    border: 1px solid rgba(131, 131, 131, 0.2);
+  }
+}
+
+@-o-keyframes focus-highlight {
+  0%{
+    border: 1px solid rgba(131, 131, 131, 0.2);
+  }
+  30%{
+    border: 2px solid rgba(131, 131, 131, 0.2);
+  }
+  60%{
+    border: 2px solid #FFB300;
+  }
+  100%{
+    border: 1px solid rgba(131, 131, 131, 0.2);
+  }
+}
+
+@keyframes focushighlight {
+  0%{
+    border: 1px solid rgba(131, 131, 131, 0.2);
+  }
+  5%{
+    border: 2px solid rgba(131, 131, 131, 0.2);
+  }
+  10%{
+    border: 2px solid #FFB300;
+  }
+  90%{
+    border: 2px solid #FFB300;
+  }
+  95%{
+    border: 2px solid rgba(131, 131, 131, 0.2);
+  }
+  100%{
+    border: 1px solid rgba(131, 131, 131, 0.2);
+  }
+}
+
+.focus-animate{
+  animation: focushighlight 1800ms;
+  -moz-animation: focushighlight 1800ms;
+  -webkit-animation: focushighlight 1800ms;
+  -o-animation: focushighlight 1800ms;
+}
+
+/* ---------------------ANIMATION end------------------- */
+
 @media screen and (max-width: 756px){
   nav{
     display: none;

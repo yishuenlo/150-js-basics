@@ -39,11 +39,16 @@ window.addEventListener("hashchange", function(){
     //check for url address
     //highlights border then fades - using CSS
     if(currentAddress == focusedAddress){
-      TILES[i].style.borderColor = "#FFB300";
-      TILES[i].style.borderWidth = "2px";
+      TILES[i].classList.add("focus-animate");
+      // TILES[i].style.borderColor = "#FFB300";
+      // TILES[i].style.borderWidth = "2px";
     } else {
-      TILES[i].style.borderColor = "rgba(131, 131, 131, 0.2)";
-      TILES[i].style.borderWidth = "1px";
+      TILES[i].classList.remove("focus-animate");
     }
+
+    // else {
+    //   TILES[i].style.borderColor = "rgba(131, 131, 131, 0.2)";
+    //   TILES[i].style.borderWidth = "1px";
+    // }
   }
 })
