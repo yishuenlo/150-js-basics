@@ -120,7 +120,8 @@ nav footer{
 
 main{
   position: absolute;
-  margin: 2em auto 2em 280px;
+  margin: 0 auto 2em 280px;
+  padding-bottom: 2em;
   width: 80%;
 }
 
@@ -143,7 +144,7 @@ main{
 section{
   width: 280px;
   background-color: white;
-  margin: 0 auto 2em auto;
+  margin: 2em auto 0 auto;
   padding: 1.25em 2em 2em 2em;
   border: 1px solid rgba(131, 131, 131, 0.2);
   border-radius: 16px;
