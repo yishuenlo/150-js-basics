@@ -32,7 +32,20 @@ section h3 a:hover, nav footer a:hover{
   color: var(--accent);;
 }
 
-.fa-github{
+.codepen{
+  margin-top: 2em;
+  float: right;
+  font-size: 0.8em;
+  color: var(--primary);
+  opacity: 0.45;
+  transition: 500ms ease-out;
+}
+
+.codepen:hover{
+  opacity: 1;
+}
+
+.fa{
   font-size: 1.15em;
   color: var(--primary);
   opacity: 0.5;
