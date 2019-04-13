@@ -2,19 +2,22 @@
 
 const YEARINPUT = document.querySelector("#leapYearInput");
 const YEARDISPLAY = document.querySelector("#leapYearDisplay");
-var leapYear;
 
-YEARINPUT.addEventListener('keyup', function(e) {
-  if(YEARINPUT.value == ""){
-    YEARDISPLAY.innerHTML = "Leap Year?";
-    clearTimeout(isLeapYear);
-  } else {
-    leapYear = Number(e.target.value);
+YEARINPUT.addEventListener('keyup', function() {
+  if(this.value !== "" && this.value > 0){
     setTimeout(isLeapYear, 1500);
+  } else {
+    resetLeapYear();
   }
 })
 
 function isLeapYear(year) {
+  year = Number(YEARINPUT.value);
   let leapYearResult = (year % 100 === 0) ? (year % 400 === 0) : (year % 4 === 0)
   return YEARDISPLAY.innerHTML = `Leap Year? ${leapYearResult}`;
+}
+
+function resetLeapYear(){
+  YEARDISPLAY.innerHTML = "Leap Year?";
+  clearTimeout(isLeapYear);
 }
