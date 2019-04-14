@@ -268,11 +268,17 @@ input[type=number] {
   0%{
     border: 1px solid rgba(131, 131, 131, 0.2);
   }
-  30%{
+  5%{
     border: 2px solid rgba(131, 131, 131, 0.2);
   }
-  60%{
+  10%{
     border: 2px solid #FFB300;
+  }
+  70%{
+    border: 2px solid #FFB300;
+  }
+  95%{
+    border: 2px solid rgba(131, 131, 131, 0.2);
   }
   100%{
     border: 1px solid rgba(131, 131, 131, 0.2);
@@ -283,11 +289,17 @@ input[type=number] {
   0%{
     border: 1px solid rgba(131, 131, 131, 0.2);
   }
-  30%{
+  5%{
     border: 2px solid rgba(131, 131, 131, 0.2);
   }
-  60%{
+  10%{
     border: 2px solid #FFB300;
+  }
+  70%{
+    border: 2px solid #FFB300;
+  }
+  95%{
+    border: 2px solid rgba(131, 131, 131, 0.2);
   }
   100%{
     border: 1px solid rgba(131, 131, 131, 0.2);
@@ -298,11 +310,17 @@ input[type=number] {
   0%{
     border: 1px solid rgba(131, 131, 131, 0.2);
   }
-  30%{
+  5%{
     border: 2px solid rgba(131, 131, 131, 0.2);
   }
-  60%{
+  10%{
     border: 2px solid #FFB300;
+  }
+  70%{
+    border: 2px solid #FFB300;
+  }
+  95%{
+    border: 2px solid rgba(131, 131, 131, 0.2);
   }
   100%{
     border: 1px solid rgba(131, 131, 131, 0.2);
@@ -319,7 +337,7 @@ input[type=number] {
   10%{
     border: 2px solid #FFB300;
   }
-  90%{
+  70%{
     border: 2px solid #FFB300;
   }
   95%{
