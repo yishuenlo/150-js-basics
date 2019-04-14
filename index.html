@@ -7,12 +7,14 @@
   <script src="js/script.js" async></script>
   <script src="js/ex001.js" async></script>
   <script src="js/ex002.js" async></script>
+  <script src="js/ex003.js" async></script>
   <script src="js/ex004.js" async></script>
   <script src="js/ex005.js" async></script>
   <script src="js/ex006.js" async></script>
   <script src="js/ex007.js" async></script>
+
   <link rel="stylesheet" href="css/style.css">
-  <link href="https://fonts.googleapis.com/css?family=Fira+Sans:200,400" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans:200,400|VT323" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 </head>
 
@@ -33,23 +35,25 @@
   <main>
     <div class="wrapper">
       <section id="ex001" class="tile">
-        <h3><a href="https://www.w3resource.com/javascript-exercises/javascript-basic-exercise-1.php" target="_blank">001: Print Date + Time</a></h3>
+        <h3><a href="https://www.w3resource.com/javascript-exercises/javascript-basic-exercise-1.php" target="_blank">001: Print Current Date + Time</a></h3>
         <p class="description">Write a JavaScript program to display the current day and time in the following format.</p>
         <p>Today is <span class="highlight" id="day">Monday</span></p>
         <p>Current time is <span class="highlight" id="time">00:00</span></p>
-        <a class="codepen" href="https://codepen.io/yishuenlo/pen/qwXyye" target="_blank" class="github-js"><i class="fab fa-codepen"></i> View on Codepen</a>
+        <a class="live-code" href="https://codepen.io/yishuenlo/pen/qwXyye" target="_blank" class="github-js"><i class="fab fa-codepen"></i> Codepen</a>
+        <a class="live-code" href="https://jsbin.com/ciqusat/1/edit?js,output" target="_blank" class="github-js"><i class="fas fa-code"></i> JS Bin</a>
       </section>
 
       <section id="ex002" class="tile">
         <h3><a href="https://www.w3resource.com/javascript-exercises/javascript-basic-exercise-2.php" target="_blank">002: Print Current Window</a></h3>
         <p class="description">Write a JavaScript program to print the contents of the current window.</p>
         <button id="print" type="button" name="button">Print Window</button>
-        <a class="codepen" href="https://codepen.io/yishuenlo/pen/rbzrQo" target="_blank" class="github-js"><i class="fab fa-codepen"></i> View on Codepen</a>
+        <a class="live-code" href="https://codepen.io/yishuenlo/pen/rbzrQo" target="_blank" class="github-js"><i class="fab fa-codepen"></i> Codepen</a>
       </section>
 
       <section id="ex003" class="tile">
-        <h3><a href="" target="_blank">003: Live Clock</a></h3>
-        <p>00:00:00</p>
+        <h3><a href="https://www.w3resource.com/javascript-exercises/javascript-basic-exercise-3.php" target="_blank">003: Live Clock</a></h3>
+        <p>Write a JavaScript program to <span class="original-prompt">get the current date</span><span class="prompt-change"> display the current time.</span></p>
+        <p id="digital-clock">00:00:00</p>
       </section>
 
       <section id="ex004" class="tile">
@@ -66,14 +70,14 @@
           <button id="reset-triangles" type="button" name="button">Reset</button>
         </form>
         <p id="triangle-area">Triangle Area:</p>
-        <a class="codepen" href="https://codepen.io/yishuenlo/pen/jRLpox" target="_blank" class="github-js"><i class="fab fa-codepen"></i> View on Codepen</a>
+        <a class="live-code" href="https://codepen.io/yishuenlo/pen/jRLpox" target="_blank" class="github-js"><i class="fab fa-codepen"></i> Codepen</a>
       </section>
 
       <section id="ex005" class="tile">
         <h3><a href="https://www.w3resource.com/javascript-exercises/javascript-basic-exercise-5.php" target="_blank">005: Marquee</a></h3>
         <p class="description">Write a JavaScript program to rotate the string 'w3resource' in right direction by periodically removing one letter from the end of the string and attaching it to the front.</p>
         <p id="marquee" class="highlight">w3resource.</p>
-        <a class="codepen" href="https://codepen.io/yishuenlo/pen/NmvBow" target="_blank" class="github-js"><i class="fab fa-codepen"></i> View on Codepen</a>
+        <a class="live-code" href="https://codepen.io/yishuenlo/pen/NmvBow" target="_blank" class="github-js"><i class="fab fa-codepen"></i> Codepen</a>
       </section>
 
       <section id="ex006" class="tile">
@@ -82,7 +86,7 @@
         <label for="year">Year</label>
         <input id="leapYearInput" type="number" name="year" autocomplete="off">
         <p id="leapYearDisplay" class="highlight">Leap Year? </p>
-        <a class="codepen" href="https://codepen.io/yishuenlo/pen/BEdONm" target="_blank" class="github-js"><i class="fab fa-codepen"></i> View on Codepen</a>
+        <a class="live-code" href="https://codepen.io/yishuenlo/pen/BEdONm" target="_blank" class="github-js"><i class="fab fa-codepen"></i> Codepen</a>
       </section>
 
       <section id="ex007" class="tile">
@@ -96,7 +100,7 @@
           <p>Total number of years: <span id="numYears" class="highlight"></span></p>
           <p>List of years: <span id="sundayYearOutput" class="highlight"></span></p>
         </div>
-        <a class="codepen" href="https://codepen.io/yishuenlo/pen/YMxOYQ" target="_blank" class="github-js"><i class="fab fa-codepen"></i> View on Codepen</a>
+        <a class="live-code" href="https://codepen.io/yishuenlo/pen/YMxOYQ" target="_blank" class="github-js"><i class="fab fa-codepen"></i> Codepen</a>
       </section>
     </div>
   </main>

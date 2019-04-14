@@ -27,13 +27,14 @@ a{
 }
 
 section h3 a:hover, nav footer a:hover{
-  border-bottom: 5px solid var(--accent);;
+  border-bottom: 2px solid var(--accent);;
   transition: 300ms ease-in;
   color: var(--accent);;
 }
 
-.codepen{
+.live-code{
   margin-top: 4em;
+  padding-right: 1em;
   float: right;
   font-size: 0.8em;
   color: var(--primary);
@@ -41,7 +42,7 @@ section h3 a:hover, nav footer a:hover{
   transition: 500ms ease-out;
 }
 
-.codepen:hover{
+.live-code:hover{
   opacity: 1;
 }
 
@@ -182,6 +183,14 @@ input[type=submit]{
 
 button:hover, input[type=submit]:hover{
   opacity: 1;
+}
+
+#digital-clock{
+  color: var(--accent);
+  font-size: 3em;
+  font-family: VT323, monospace;
+  opacity: 0.8;
+  margin-top: 0;
 }
 
 #calculate{
