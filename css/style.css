@@ -238,6 +238,7 @@ input[type=number] {
   color: #FF6F00;
 }
 
+/* -------start exercise 003---------- */
 #digital-clock{
   color: var(--accent);
   font-size: 3em;
@@ -263,10 +264,17 @@ input[type=number] {
   opacity: 0.6;
 }
 
+.world-location-selected{
+  font-size: 0.9em;
+  margin-right: 1em;
+  opacity: 1;
+}
+
 .world-location:hover{
   opacity: 1;
   cursor: pointer;
 }
+/* -------end exercise 003---------- */
 
 #calculate{
   margin: 1.5em 1em 0.7em 0;
