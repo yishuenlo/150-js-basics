@@ -1,6 +1,8 @@
 /* author: Yishuen Lo */
 
+/* import fonts */
 @import url('https://fonts.googleapis.com/css?family=Fira+Sans:200,400|VT323');
+@import url('https://use.fontawesome.com/releases/v5.8.1/css/all.css');
 
 :root{
   --primary: #424242; /* dark grey */
