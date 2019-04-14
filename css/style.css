@@ -1,5 +1,7 @@
 /* author: Yishuen Lo */
 
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:200,400|VT323');
+
 :root{
   --primary: #424242; /* dark grey */
   --accent: #FFB300; /* gold */
