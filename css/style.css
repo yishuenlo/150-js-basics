@@ -35,7 +35,7 @@ section h3 a:hover, nav footer a:hover{
 }
 
 .live-code{
-  margin-top: 4em;
+  margin-top: 2em;
   padding-right: 1em;
   float: right;
   font-size: 0.8em;
@@ -187,18 +187,6 @@ button:hover, input[type=submit]:hover{
   opacity: 1;
 }
 
-#digital-clock{
-  color: var(--accent);
-  font-size: 3em;
-  font-family: VT323, monospace;
-  opacity: 0.8;
-  margin: 0;
-}
-
-#calculate{
-  margin: 1.5em 1em 0.7em 0;
-}
-
 label{
   display: inline-block;
   width: 5em;
@@ -235,17 +223,6 @@ input[type=number] {
     -moz-appearance:textfield; /* Firefox */
 }
 
-#e004{
-  height: 350px;
-}
-
-#triangle-area{
-  color: var(--accent);
-  font-weight: 400;
-  margin-top: 1em;
-  margin-bottom: 3em;
-}
-
 .highlight{
   color: var(--accent);
   font-weight: 400;
@@ -257,6 +234,51 @@ input[type=number] {
 
 .prompt-change{
   color: #FF6F00;
+}
+
+#digital-clock{
+  color: var(--accent);
+  font-size: 3em;
+  font-family: VT323, monospace;
+  opacity: 0.8;
+  margin: 0;
+}
+
+.locations{
+  display: flex;
+  align-items: center;
+  margin-bottom: 0;
+}
+
+.fa-compass{
+  opacity: 0.6;
+  padding-right:0.25em;
+}
+
+.world-location{
+  font-size: 0.9em;
+  margin-right: 1em;
+  opacity: 0.6;
+}
+
+.world-location:hover{
+  opacity: 1;
+  cursor: pointer;
+}
+
+#calculate{
+  margin: 1.5em 1em 0.7em 0;
+}
+
+#e004{
+  height: 350px;
+}
+
+#triangle-area{
+  color: var(--accent);
+  font-weight: 400;
+  margin-top: 1em;
+  margin-bottom: 3em;
 }
 
 .holiday-out-area{
