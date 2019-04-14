@@ -24,4 +24,5 @@ function displayTime(){
   DIGITAL_CLOCK.innerHTML =  `${precedingZero(digitalHr)}:${precedingZero(digitalMin)}:${precedingZero(digitalSec)} ${period}`
 }
 
-window.onload = setInterval(displayTime, 1000);
+window.onload = displayTime();
+setInterval(displayTime, 1000); //run time every second
