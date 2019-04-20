@@ -1,3 +1,5 @@
+window.onload = function() {document.body.scrollTop = document.documentElement.scrollTop = 0;};
+
 //automatically create navigation list based on sections
 const NAV_LIST  = document.querySelector("#nav-list");
 const SECTIONS = document.querySelectorAll("section h3 a");

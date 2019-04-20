@@ -12,6 +12,7 @@
   <script src="js/ex005.js" async></script>
   <script src="js/ex006.js" async></script>
   <script src="js/ex007.js" async></script>
+  <script src="js/ex008.js" async></script>
 
   <link rel="stylesheet" href="css/style.css">
   <!-- <link href="https://fonts.googleapis.com/css?family=Fira+Sans:200,400|VT323" rel="stylesheet"> -->
@@ -110,6 +111,32 @@
           <p>List of years: <span id="sundayYearOutput" class="highlight"></span></p>
         </div>
         <a class="live-code" href="https://codepen.io/yishuenlo/pen/YMxOYQ" target="_blank" class="github-js"><i class="fab fa-codepen"></i> Codepen</a>
+      </section>
+
+      <section id="ex008" class="tile">
+        <h3><a href="https://www.w3resource.com/javascript-exercises/javascript-basic-exercise-8.php">008: Number Guessing Game</a></h3>
+        <p class="description">Write a JavaScript program where the program takes a random integer between 1 to 10, the user is then prompted to input a guess number. If the user input matches with guess number, the program will display a message "Good Work" otherwise display a message "Not matched".</p>
+        <div class="computer-message-container">
+          <p id="computer-message">GUESS A NUMBER!</p>
+        </div>
+        <div class="user-input">
+          <label for="guess-input">Your Guess</label>
+          <input type="number" name="guess-input" value="">
+        </div>
+        <p class="viz-guide viz-label">Previous Guesses</p>
+        <div class="previous-guess-visual">
+          <p>
+            <span class="guess" id="guess01">5</span>
+            <span class="guess-default" id="guess02"></span>
+            <span class="guess-default" id="guess02"></span>
+          </p>
+        </div>
+        <button type="button" name="button">Reset Game</button>
+        <div class="live-code-container">
+          <a class="live-code" href="" target="_blank" class="github-js"><i class="fab fa-codepen"></i> Codepen</a>
+          <a class="live-code" href="" target="_blank" class="github-js"><i class="fas fa-code"></i> JS Bin</a>
+        </div>
+
       </section>
     </div>
   </main>
