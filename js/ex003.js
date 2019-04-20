@@ -6,7 +6,7 @@ let interval;
 
 //create an array of toLocalString timezone property
 //leave first as empty for local time
-let locationList = [, "Europe/London", "Asia/Shanghai"];
+let locationList = [, "Europe/Amsterdam", "Asia/Shanghai"];
 
 //make sure Local is darker, indicating it is selected
 LOCATIONS_LIST[0].classList.add("world-location-selected");
