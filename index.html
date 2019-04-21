@@ -5,13 +5,13 @@
   <meta charset="utf-8">
   <title>w3resource Javascript Exercises</title>
   <script src="js/script.js" async></script>
-  <script src="js/ex001.js" async></script>
+  <!-- <script src="js/ex001.js" async></script>
   <script src="js/ex002.js" async></script>
   <script src="js/ex003.js" async></script>
   <script src="js/ex004.js" async></script>
   <script src="js/ex005.js" async></script>
   <script src="js/ex006.js" async></script>
-  <script src="js/ex007.js" async></script>
+  <script src="js/ex007.js" async></script> -->
   <script src="js/ex008.js" async></script>
 
   <link rel="stylesheet" href="css/style.css">
@@ -35,7 +35,7 @@
 
   <main>
     <div class="wrapper">
-      <section id="ex001" class="tile">
+      <!-- <section id="ex001" class="tile">
         <h3><a href="https://www.w3resource.com/javascript-exercises/javascript-basic-exercise-1.php" target="_blank">001: Print Current Date + Time</a></h3>
         <p class="description">Write a JavaScript program to display the current day and time in the following format.</p>
         <p>Today is <span class="highlight" id="day">Monday</span></p>
@@ -111,17 +111,17 @@
           <p>List of years: <span id="sundayYearOutput" class="highlight"></span></p>
         </div>
         <a class="live-code" href="https://codepen.io/yishuenlo/pen/YMxOYQ" target="_blank" class="github-js"><i class="fab fa-codepen"></i> Codepen</a>
-      </section>
+      </section> -->
 
       <section id="ex008" class="tile">
         <h3><a href="https://www.w3resource.com/javascript-exercises/javascript-basic-exercise-8.php">008: Number Guessing Game</a></h3>
-        <p class="description">Write a JavaScript program where the program takes a random integer between 1 to 10, the user is then prompted to input a guess number. If the user input matches with guess number, the program will display a message "Good Work" otherwise display a message "Not matched".</p>
+        <p class="description">Write a JavaScript program where the program takes a random integer between 1 to 10, the user is then prompted to input a guess number.</p>
         <div class="computer-message-container">
           <p id="computer-message">GUESS A NUMBER!</p>
         </div>
         <div class="user-input">
           <label for="guess-input">Your Guess</label>
-          <input type="number" name="guess-input" value="">
+          <input type="number" name="guess-input" autocomplete="off" min="1" max="10" required>
         </div>
         <p class="viz-guide viz-label">Previous Guesses</p>
         <div class="previous-guess-visual">
@@ -131,7 +131,7 @@
             <span class="guess-default" id="guess02"></span>
           </p>
         </div>
-        <button type="button" name="button">Reset Game</button>
+        <a id="reset-random-num" href="#ex008"><i class="fas fa-undo-alt"></i> Reset Game</a>
         <div class="live-code-container">
           <a class="live-code" href="" target="_blank" class="github-js"><i class="fab fa-codepen"></i> Codepen</a>
           <a class="live-code" href="" target="_blank" class="github-js"><i class="fas fa-code"></i> JS Bin</a>
