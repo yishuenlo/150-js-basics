@@ -30,13 +30,14 @@ a{
   text-decoration: none;
 }
 
-section h3 a:hover, nav footer a:hover{
+section h3 a:hover, nav footer a:hover, nav p a:hover{
   border-bottom: 2px solid var(--accent);;
   transition: 300ms ease-in;
   color: var(--accent);;
 }
 
 .live-code-container{
+  margin-top: 1em;
   border-top: 1px solid rgba(180, 180, 180, 0.4);
 }
 
@@ -82,14 +83,8 @@ nav h1{
   margin-bottom: 1em;
 }
 
-nav h1 a{
-  color: var(--accent);
-  opacity: 0.6;
-  transition: 400ms ease-in;
-}
-
-nav h1 a:hover{
-  opacity: 1;
+nav p a{
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 nav h2{
@@ -97,6 +92,12 @@ nav h2{
   font-size: .75em;
   letter-spacing: 1px;
   margin-bottom: 0.75em;
+}
+
+nav p{
+  font-size: 0.90em;
+  opacity: 0.8;
+  margin-bottom: 2em;
 }
 
 nav ul{
@@ -181,6 +182,7 @@ button, input[type=submit]{
   opacity: 0.6;
   box-shadow: none;
   padding: 0.25em 2em;
+  margin: 1em 0;
   transition: 400ms ease-in;
 }
 
@@ -324,7 +326,6 @@ input[type="number"][disabled] {
 .viz-guide, .previous-guess-visual{
   display: inline-block;
   margin-top: 0;
-  margin-bottom: 1em;
 }
 
 .viz-label{
@@ -350,18 +351,40 @@ input[type="number"][disabled] {
   margin-right: 8px;
 }
 
-#reset-random-num{
+.reset-random-num{
+  color: rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0);
   display: block;
-  font-size: 0.85em;
-  margin-bottom: 1em;
-  opacity: 0.6;
+  margin: 2em 0;
   transition: 400ms ease-in;
 }
 
-#reset-random-num:hover{
+.reset-random-num:hover{
+  border-color: var(--accent);
   color: var(--accent);
+  opacity: 0.6;
+}
+
+.reset-random-num-highlight{
+  border-color: var(--accent);
+  background-color: var(--accent);
+  margin: 2em 0;
+  color: white;
+  opacity: 0.6;
+  display: block;
+  transition: 400ms ease-in;
+}
+
+.reset-random-num button, .reset-random-num i {
+    font-size: 0.85em;
+}
+
+.reset-random-num-highlight:hover{
   opacity: 1;
 }
+
+
 /* -------end exercise 008---------- */
 
 /* ---------------------ANIMATION start------------------- */

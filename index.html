@@ -3,15 +3,15 @@
 
 <head>
   <meta charset="utf-8">
-  <title>w3resource Javascript Exercises</title>
+  <title>Javascript Basic Exercises</title>
   <script src="js/script.js" async></script>
-  <!-- <script src="js/ex001.js" async></script>
+  <script src="js/ex001.js" async></script>
   <script src="js/ex002.js" async></script>
   <script src="js/ex003.js" async></script>
   <script src="js/ex004.js" async></script>
   <script src="js/ex005.js" async></script>
   <script src="js/ex006.js" async></script>
-  <script src="js/ex007.js" async></script> -->
+  <script src="js/ex007.js" async></script>
   <script src="js/ex008.js" async></script>
 
   <link rel="stylesheet" href="css/style.css">
@@ -22,20 +22,23 @@
 <body>
   <nav id="navbar">
     <header>
-      <h1><a href="https://www.w3resource.com/javascript-exercises/javascript-basic-exercises.php" target="_blank">w3resource </a>Javascript Basics</h1>
+      <h1>Javascript Basic Exercises</h1>
     </header>
+    <h2>About</h2>
+    <p>This is a platform to record my mini JavaScript programs from <a href="https://www.w3resource.com/javascript-exercises/javascript-basic-exercises.php" target="_blank">w3resource's</a> JavaScript exercises</p>
     <h2>Exercises</h2>
     <ul id="nav-list">
     </ul>
 
     <footer>
+
       <p>Made with <i class="fas fa-heart love"></i> by <a href="https://github.com/yishuenlo" target="_blank">Yish</a></p>
     </footer>
   </nav>
 
   <main>
     <div class="wrapper">
-      <!-- <section id="ex001" class="tile">
+      <section id="ex001" class="tile">
         <h3><a href="https://www.w3resource.com/javascript-exercises/javascript-basic-exercise-1.php" target="_blank">001: Print Current Date + Time</a></h3>
         <p class="description">Write a JavaScript program to display the current day and time in the following format.</p>
         <p>Today is <span class="highlight" id="day">Monday</span></p>
@@ -111,7 +114,7 @@
           <p>List of years: <span id="sundayYearOutput" class="highlight"></span></p>
         </div>
         <a class="live-code" href="https://codepen.io/yishuenlo/pen/YMxOYQ" target="_blank" class="github-js"><i class="fab fa-codepen"></i> Codepen</a>
-      </section> -->
+      </section>
 
       <section id="ex008" class="tile">
         <h3><a href="https://www.w3resource.com/javascript-exercises/javascript-basic-exercise-8.php">008: Number Guessing Game</a></h3>
@@ -121,20 +124,15 @@
         </div>
         <div class="user-input">
           <label for="guess-input">Your Guess</label>
-          <input type="number" name="guess-input" autocomplete="off" min="1" max="10" required>
+          <input type="number" name="guess-input" autocomplete="off" min="1" max="10">
         </div>
-        <p class="viz-guide viz-label">Previous Guesses</p>
-        <div class="previous-guess-visual">
-          <p>
-            <span class="guess" id="guess01">5</span>
-            <span class="guess-default" id="guess02"></span>
-            <span class="guess-default" id="guess02"></span>
-          </p>
-        </div>
-        <a id="reset-random-num" href="#ex008"><i class="fas fa-undo-alt"></i> Reset Game</a>
+        <p class="previous-guess">Previous Guess: <span class="highlight"></span></p>
+
+        <button class="reset-random-num" type="button" name="button"><i class="fas fa-undo-alt"></i> Reset Game</button>
+
         <div class="live-code-container">
-          <a class="live-code" href="" target="_blank" class="github-js"><i class="fab fa-codepen"></i> Codepen</a>
-          <a class="live-code" href="" target="_blank" class="github-js"><i class="fas fa-code"></i> JS Bin</a>
+          <a class="live-code" href="https://codepen.io/yishuenlo/pen/pBZWJb" target="_blank" class="github-js"><i class="fab fa-codepen"></i> Codepen</a>
+          <a class="live-code" href="https://jsbin.com/sefatob/edit?js,output" target="_blank" class="github-js"><i class="fas fa-code"></i> JS Bin</a>
         </div>
 
       </section>
