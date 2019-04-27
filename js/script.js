@@ -54,3 +54,13 @@ window.addEventListener("hashchange", function(){
     // }
   }
 })
+
+function resizeMaonsryItem(item){
+  var grid = document.querySelectorAll('.masonry')[0],
+      rowGap = parseInt(window.getComputedStyle(grid).getPropertyValue('grid-row-gap')),
+      rowHeight = parseInt(window.getComputedStyle(grid).getPropertyValue('grid-auto-rows'));
+
+  var rowSpan = Math.ceil((item.querySelector('.masonry-content').getBoundingClientRect().height+rowGap)/(rowHeight+rowGap));
+
+  item.style.gridRowEnd = 'span '+rowSpan;
+}

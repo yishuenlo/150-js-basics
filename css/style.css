@@ -36,6 +36,12 @@ section h3 a:hover, nav footer a:hover, nav p a:hover{
   color: var(--accent);;
 }
 
+.prompt{
+  font-size: 0.7em;
+  float: right;
+  opacity: 0.4;
+}
+
 .live-code-container{
   margin-top: 1em;
   /* border-top: 1px solid rgba(180, 180, 180, 0.4); */
@@ -135,7 +141,7 @@ main{
   width: 80%;
 }
 
-.wrapper{
+.masonry{
   max-width: 1230px;
   margin: auto;
   align-content: center;
@@ -251,7 +257,7 @@ input[type="number"][disabled] {
 }
 
 /* -------start exercise 003---------- */
-#digital-clock{
+.digital-clock{
   color: var(--accent);
   font-size: 3em;
   font-family: VT323, monospace;
@@ -489,7 +495,7 @@ input[type="number"][disabled] {
     position: relative;
     margin-left: auto;
   }
-  .wrapper{
+  .masonry{
     width: 100%;
     margin: auto;
     grid-template-columns: none;
@@ -500,7 +506,7 @@ input[type="number"][disabled] {
     width: 200px;
   }
 
-  #digital-clock{
+  .digital-clock{
     font-size: 2em;
   }
 }
@@ -509,7 +515,7 @@ input[type="number"][disabled] {
   main{
     width: 70%;
   }
-  .wrapper{
+  .masonry{
     width: 60%;
     grid-template-columns: repeat(auto-fill, minmax(220px,1fr));
     grid-auto-rows: auto;
@@ -520,7 +526,7 @@ input[type="number"][disabled] {
   main{
     width: 80%;
   }
-  .wrapper{
+  .masonry{
     width: 90%;
     grid-template-columns: repeat(auto-fill, minmax(320px,1fr));
   }
