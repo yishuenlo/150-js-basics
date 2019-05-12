@@ -21,7 +21,7 @@ body, h1, h2, h3, div, article, section, nav, main, ul, li, p, input, form, sele
 body {
   color: var(--primary);;
   background-color: #FAFAFA;
-  font-family: 'fira sans';
+  font-family: 'fira sans', arial;
   font-weight: 200;
 }
 
@@ -392,6 +392,30 @@ input[type="number"][disabled] {
 
 
 /* -------end exercise 008---------- */
+
+/* --------------regex 01------------- */
+textarea{
+  color: var(--primary);
+  font-size: 0.9em;
+  font-family: 'fira sans', arial;
+  font-weight: 200;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  padding: 16px;
+}
+
+.word-count-display{
+  margin-left: 1em;
+}
+
+.bottom-row input[type=number]{
+  width: 60px;
+  padding-left: 2em;
+  color: var(--primary);
+  background-color: rgba(0, 0, 0, 0.05);
+  border: none;
+}
+/* --------------regex 01------------- */
 
 /* ---------------------ANIMATION start------------------- */
 @-moz-keyframes focus-highlight {
