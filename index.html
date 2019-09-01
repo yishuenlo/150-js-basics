@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Javascript Basic Exercises</title>
+  <title>Javascript Exercises</title>
   <script src="js/script.js" async></script>
   <script src="js/ex001.js" async></script>
   <script src="js/ex002.js" async></script>
@@ -14,7 +14,8 @@
   <script src="js/ex007.js" async></script>
   <script src="js/ex008.js" async></script>
   <script src="js/ex009.js" async></script>
-  <script src="js/regex.js" async></script>
+  <script src="js/ex010.js" async></script>
+  <script src="js/ex011.js" async></script>
 
   <link rel="stylesheet" href="css/style.css">
   <!-- <link href="https://fonts.googleapis.com/css?family=Fira+Sans:200,400|VT323" rel="stylesheet"> -->
@@ -24,16 +25,19 @@
 <body>
   <nav id="navbar">
     <header>
-      <h1>Javascript Basic Exercises</h1>
+      <h1>Javascript Exercises</h1>
     </header>
-    <h2>About</h2>
-    <p>This is a platform to record my mini JavaScript programs from <a href="https://www.w3resource.com/javascript-exercises/javascript-basic-exercises.php" target="_blank">w3resource's</a> JavaScript exercises</p>
-    <h2>Exercises</h2>
-    <ul id="nav-list">
-    </ul>
+    <div class="about">
+      <h2>About</h2>
+      <p>This is a platform to record my mini JavaScript programs from <a href="https://www.w3resource.com/javascript-exercises/javascript-basic-exercises.php" target="_blank">w3resource's</a> JavaScript exercises</p>
+    </div>
+
+    <div class="js-basics">
+      <h2>Exercises</h2>
+      <ul id="nav-list"></ul>
+    </div>
 
     <footer>
-
       <p>Made with <i class="fas fa-heart love"></i> by <a href="https://github.com/yishuenlo" target="_blank">Yish</a></p>
     </footer>
   </nav>
@@ -168,8 +172,35 @@
           <a class="live-code" href="https://codepen.io/yishuenlo/pen/vwKMWd" target="_blank" class="github-js" title="open Codepen in new tab"><i class="fab fa-codepen"></i> Codepen</a>
           <a class="live-code" href="https://jsbin.com/xoxudid/edit?js,output" target="_blank" class="github-js" title="open JS Bin in new tab"><i class="fas fa-code" >></i> JS Bin</a>
         </div>
+      </section>
+
+      <section>
+        <h3><a href="https://www.w3resource.com/javascript-exercises/javascript-basic-exercise-10.php">011: 2 Numbers Calculator</a></h3>
+        <p class="description">Write a JavaScript program to calculate multiplication, division, addition and substraction of two numbers (input from user).</p>
+        <div class="cal-number-inputs">
+          <label for="number1">Number 1</label>
+          <input id="num1" type="text" name="number1" autocomplete="off"><br>
+          <label for="number2">Number 2</label>
+          <input id="num2" type="text" name="number2" autocomplete="off">
+        </div>
+        <div class="operations-container">
+          <button id="plus-btn" class="operations" type="button" name="plus-btn"><i class="fas fa-plus"></i></button>
+          <button id="minus-btn" class="operations" type="button" name="minus-btn"><i class="fas fa-minus"></i></button>
+          <button id="times-btn" class="operations" type="button" name="times-btn"><i class="fas fa-times"></i></i></button>
+          <button id="divide-btn" class="operations" type="button" name="divide-btn"><i class="fas fa-divide"></i></button> =
+          <input class="num2-calc-result" type="number">
+        </div>
+
+        <div class="live-code-container">
+          <a class="live-code" href="https://codepen.io/yishuenlo/pen/yLBomNJ" target="_blank" class="github-js" title="open Codepen in new tab"><i class="fab fa-codepen"></i> Codepen</a>
+          <a class="live-code" href="https://jsbin.com/xoxudid/edit?js,output" target="_blank" class="github-js" title="open JS Bin in new tab"><i class="fas fa-code" >></i> JS Bin</a>
+        </div>
+
 
       </section>
+
+
+
     </div>
   </main>
 

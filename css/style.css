@@ -237,11 +237,11 @@ input[type=number] {
     -moz-appearance:textfield; /* Firefox */
 }
 
-input[type="number"][disabled] {
+/* input[type="number"][disabled] {
   border-color: rgba(0, 0, 0, 0.2);
   background-color: #FAFAFA;
   color: rgba(0, 0, 0, 0.2);
-}
+} */
 
 .highlight{
   color: var(--accent);
@@ -393,7 +393,7 @@ input[type="number"][disabled] {
 
 /* -------end exercise 008---------- */
 
-/* --------------regex 01------------- */
+/* --------------start exercise 10------------- */
 textarea{
   color: var(--primary);
   font-size: 0.9em;
@@ -415,7 +415,18 @@ textarea{
   background-color: rgba(0, 0, 0, 0.05);
   border: none;
 }
-/* --------------regex 01------------- */
+/* --------------end exercise 10------------- */
+
+/* --------------exercise 11------------- */
+.operations {
+  border-radius: 8px;
+  padding: 6px 10px;
+}
+
+.operations-container{
+  margin-bottom: 2em;
+}
+
 
 /* ---------------------ANIMATION start------------------- */
 @-moz-keyframes focus-highlight {
