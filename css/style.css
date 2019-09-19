@@ -426,7 +426,20 @@ textarea{
 .operations-container{
   margin-bottom: 2em;
 }
+/* --------------end exercise 11------------- */
 
+
+/* --------------exercise 12------------- */
+.temp-container{
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+.temp-container span{
+  padding: 0 0.25em;
+}
+/* --------------end exercise 12------------- */
 
 /* ---------------------ANIMATION start------------------- */
 @-moz-keyframes focus-highlight {
