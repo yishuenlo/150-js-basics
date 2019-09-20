@@ -16,6 +16,7 @@
   <script src="js/ex009.js" async></script>
   <script src="js/ex010.js" async></script>
   <script src="js/ex011.js" async></script>
+  <script src="js/ex012.js" async></script>
 
   <link rel="stylesheet" href="css/style.css">
   <!-- <link href="https://fonts.googleapis.com/css?family=Fira+Sans:200,400|VT323" rel="stylesheet"> -->
@@ -174,14 +175,14 @@
         </div>
       </section>
 
-      <section>
+      <section id="ex011" class="tile">
         <h3><a href="https://www.w3resource.com/javascript-exercises/javascript-basic-exercise-10.php">011: 2 Numbers Calculator</a></h3>
         <p class="description">Write a JavaScript program to calculate multiplication, division, addition and substraction of two numbers (input from user).</p>
         <div class="cal-number-inputs">
           <label for="number1">Number 1</label>
-          <input id="num1" type="text" name="number1" autocomplete="off"><br>
+          <input id="num1" type="number" name="number1" autocomplete="off"><br>
           <label for="number2">Number 2</label>
-          <input id="num2" type="text" name="number2" autocomplete="off">
+          <input id="num2" type="number" name="number2" autocomplete="off">
         </div>
         <div class="operations-container">
           <button id="plus-btn" class="operations" type="button" name="plus-btn"><i class="fas fa-plus"></i></button>
@@ -195,8 +196,25 @@
           <a class="live-code" href="https://codepen.io/yishuenlo/pen/yLBomNJ" target="_blank" class="github-js" title="open Codepen in new tab"><i class="fab fa-codepen"></i> Codepen</a>
           <a class="live-code" href="https://jsbin.com/xoxudid/edit?js,output" target="_blank" class="github-js" title="open JS Bin in new tab"><i class="fas fa-code" >></i> JS Bin</a>
         </div>
+      </section>
 
+      <section id="ex012" class="tile">
+        <h3><a href="https://www.w3resource.com/javascript-exercises/javascript-basic-exercise-11.php">012: Temperature Converter</a></h3>
+        <p class="description">Write a JavaScript program to convert temperatures to and from celsius, fahrenheit.</p>
+        <div class="temp-container">
+          <div class="fahrenheit-container">
+            <input id="fahrenheit" type="number" name="fahrenheit" autocomplete="off"><br>
+            <label for="fahrenheit">fahrenheit</label>
+          </div>
 
+          <span> = </span>
+
+          <div class="celsius-container">
+            <input id="celsius" type="number" name="celsius" autocomplete="off">
+            <label for="celsius">celsius</label>
+          </div>
+
+        </div>
       </section>
 
 
