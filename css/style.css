@@ -439,6 +439,22 @@ textarea{
 .temp-container span{
   padding: 0 0.25em;
 }
+
+.fahrenheit-container, .celsius-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.celsius-container label, .fahrenheit-container label{
+  margin-top: 0;
+  width: auto;
+}
+
+.celsius-container input, .fahrenheit-container input{
+  margin-bottom: 3px;
+}
+
 /* --------------end exercise 12------------- */
 
 /* ---------------------ANIMATION start------------------- */
