@@ -66,13 +66,13 @@ function resizeMaonsryItem(item){
 }
 
 //open new tab if link starts with http
-const ANCHOR_TAGS = document.querySelectorAll('a');
-let anchorHref = ANCHOR_TAGS[0].getAttribute('href');
-anchorHref = anchorHref.slice(0,4);
+// const ANCHOR_TAGS = document.querySelectorAll('a');
+// let anchorHref = ANCHOR_TAGS[0].getAttribute('href');
+// anchorHref = anchorHref.slice(0,4);
 
-for(i=0; i<ANCHOR_TAGS.length; i++){
-  if (anchorHref == 'http') {
-    ANCHOR_TAGS[i].setAttribute("target", "_blank");
-  };
-};
+// for(i=0; i<ANCHOR_TAGS.length; i++){
+//   if (anchorHref == 'http') {
+//     ANCHOR_TAGS[i].setAttribute("target", "_blank");
+//   };
+// };
 
