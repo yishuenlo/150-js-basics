@@ -322,7 +322,7 @@ input[type=number] {
   border-radius: 16px;
 }
 
-#computer-message{
+.computer-message{
   opacity: 0.7;
   font-size: 1.1em;
   font-family: VT323, monospace;
