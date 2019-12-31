@@ -1,4 +1,4 @@
-const DISPLAY_RANDOM_NUM = document.querySelector("#computer-message"); //computer message
+const DISPLAY_RANDOM_NUM = document.querySelector("#guess-message"); //computer message
 const USER_NUM_GUESS = document.querySelector(".user-input input"); //user input
 const PREVIOUS_GUESS = document.querySelector(".previous-guess span");
 const RESET_RANDOM_NUM = document.querySelector(".reset-random-num"); //button
