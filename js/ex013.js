@@ -16,7 +16,7 @@ function romanize(num){
 
     //list of corresponding roman letters
     let romanLetters = [
-        'I', 'IV', 'V', 'IX', 'X', 'XL', 'L', 'XC', 'C', 'CDL', 'D', 'CM', 'M'
+        'I', 'IV', 'V', 'IX', 'X', 'XL', 'L', 'XC', 'C', 'CD', 'D', 'CM', 'M'
     ] 
 
     //create an empty string to store roman letters
@@ -24,7 +24,7 @@ function romanize(num){
 
     //start from biggest number, if digits is smaller than input number, substract digits from num
     //continue this for the entire length of the array, and cycle though each options, until input number equals 0
-    for (i = 12; i >= 0; i--) {
+    for (let i = 12; i >= 0; i--) {
         //while number is bigger than the digit numbers,
         while (num >= digitNum[i]) {
             //substract that number from input number
