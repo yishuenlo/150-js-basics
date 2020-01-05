@@ -36,3 +36,23 @@ function calculateTip(amount, rating) {
 
     return Math.ceil(tips);
 }
+
+//-------------- BEST PRACTICES -------------------
+
+const TIPS = {
+    'terrible' : 0,
+    'poor' : 0.05,
+    'good' : 0.1,
+    'great' : 0.15,
+    'excellent' : 0.2
+};
+
+//arrow funciton
+const calculateTip = (amount, rating) => {
+    // convert all string to lower case, so they match TIPS keys
+    rating = rating.toLowerCase();
+
+    //if rating matches TIPS, multiply by amount, else rating not reconised
+    return rating in TIPS? Math.ceil(TIPS[rating] * amount) : "Rating not recognised";
+};
+
