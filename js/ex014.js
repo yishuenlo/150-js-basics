@@ -1,3 +1,4 @@
+//CACULATE TIPS
 // You need to consider the following ratings:
 
 //     Terrible: tip 0%
@@ -12,25 +13,26 @@
 // Because you're a nice person, you always round up the tip, regardless of the service.
 
 function calculateTip(amount, rating) {
-    rating.toLowerCase();
+    let tips;
+    rating = rating.toLowerCase();
     switch(rating){
-        case 'excellent': amount *= 1.2;
+        case 'excellent': tips = amount * 0.2;
         break;
 
-        case 'great': amount *=1.15;
+        case 'great': tips = amount * 0.15;
         break;
 
-        case 'good': amount *= 1.1;
+        case 'good': tips = amount * 0.1;
         break;
 
-        case 'poor': amount *= 1.05;
+        case 'poor': tips = amount * 0.05;
         break;
 
-        case 'terrible': amount *= 1;
+        case 'terrible': tips = 0;
         break;
 
         default: return "Rating not recognised";
     }
 
-    return Math.ceil(amount);
+    return Math.ceil(tips);
 }
